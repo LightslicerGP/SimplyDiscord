@@ -1,0 +1,97 @@
+/**
+ * @name SimplyDiscord
+ * @author LightslicerGP
+ * @authorLink https://LightslicerGP.netlify.app
+ * @version 1.0.0
+ * @description A Simplistic version of Discord that is similar to Zelk, Roundmoled, and Smooth Theme. It is a rounded simplistic UI that Includes a clean font: Product Sans.
+ * @invite 3TGX6RA
+ * @source 
+ * @website https://LightslicerGP.netlify.app/
+*/
+
+
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+
+
+:root {
+    --background-color: #000000;
+    --second-color: #181818;
+    --third-color: #545454;
+}
+
+.bg-h5JY_x, .scroller-1Bvpku, .contentRegionScroller-26nc1e, .repoHeader-2KfNvH{
+    background-color: var(--background-color) !important;
+}
+
+.privateChannels-1nO12o, .scroller-1JbKMe, .container-1giJp5, .container-3baos1, .scroller-2LSbBU, .form-2fGMdU, .channelTextArea-rNsIhG, .sidebarRegionScroller-3MXcoP, .expandedFolderBackground-3ZDF05, .container-1r6BKw, .peopleList-3c4jOR, .peopleColumn-29fq28, .header-2V-4Sw, .channelNotice-1-XFjC, .scroller-RmtA4e, .panels-j1Uci_{
+    background-color: var(--second-color) !important;
+}
+
+.inner-MADQqc, .webkit-HjD9Er{
+    background-color: var(--third-color) !important;
+}
+
+.form-2fGMdU:before, .children-19S4PO:after {
+    display: none;
+}
+
+.layout-2DM8Md:hover, layout-2DM8Md, .bd-addon-card, .accountProfileCard-1XCH88, .menu-3sdvDG, .chat-3bRxxu, .container-1D34oG, .sidebar-2K8pFh, .searchBarComponent-32dTOx {
+    border-radius: 2vw !important;
+}
+
+.floating-window, .attachedBars-tZDmyV, .item-26Dhrx, .webkit-HjD9Er, .anchor-3Z-8Bb{
+    border-radius: 1vw !important;
+}
+
+.sidebar-2K8pFh, .chat-3bRxxu, .container-1D34oG  {
+    margin: 0.5vw !important;
+}
+
+.scroller-1Bvpku, .channelTextArea-rNsIhG, .jumpToPresentBar-G1R9s6, .clipContainer-eeROt0 {
+    padding: 0vw !important;
+}
+
+.closeButton-2GCmT5 {
+    padding-right: 0.5vw !important;
+}
+
+.searchBarComponent-32dTOx {
+    padding-left: 1.0vw !important;
+}
+
+.chat-3bRxxu, .container-1D34oG {
+    margin-left: 0.25vw !important;
+}
+
+.channelTextArea-rNsIhG, .jumpToPresentBar-G1R9s6 {
+    margin-bottom: 15px !important;
+    border-radius: 0.5vw !important;
+}
+
+.accountProfileCard-1XCH88 {
+    border: 0.1vw solid #ffffff !important;
+}
+
+.attachedBars-tZDmyV {
+    margin-bottom: 1vw !important;
+}
+
+.container-3baos1{
+    height : 47px !important;
+}
+
+.headerButton-3in1-b, .header-2V-4Sw {
+    height: 43px !important;
+    padding-top: 4px !important; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*:not([class*="hljs"]):not(code){
+    font-family: Product Sans !important;
+    font-weight: 400;
+}
+
+strong,  .bold-36dRGB>span{
+    font-weight: 700 !important;
+}
