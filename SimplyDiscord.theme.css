@@ -5,7 +5,7 @@
  * @version 1.0.0
  * @description A Simplistic version of Discord that is similar to Zelk, Roundmoled, and Smooth Theme. It is a rounded simplistic UI that Includes a clean font: Product Sans.
  * @invite 3TGX6RA
- * @source https://github.com/LightslicerGP/SimplyDiscord
+ * @source 
  * @website https://LightslicerGP.netlify.app/
 */
 
@@ -16,7 +16,7 @@
 :root {
     --background-color: #000000;
     --second-color: #181818;
-    --third-color: #545454;
+    --third-color: #292929;
 }
 
 .bg-h5JY_x, .scroller-1Bvpku, .contentRegionScroller-26nc1e, .repoHeader-2KfNvH{
@@ -27,7 +27,7 @@
     background-color: var(--second-color) !important;
 }
 
-.inner-MADQqc, .webkit-HjD9Er{
+.inner-MADQqc, .webkit-HjD9Er, .grid-1nZz7S{
     background-color: var(--third-color) !important;
 }
 
@@ -35,7 +35,7 @@
     display: none;
 }
 
-.layout-2DM8Md:hover, layout-2DM8Md, .bd-addon-card, .accountProfileCard-1XCH88, .menu-3sdvDG, .chat-3bRxxu, .container-1D34oG, .sidebar-2K8pFh, .searchBarComponent-32dTOx {
+.layout-2DM8Md:hover, layout-2DM8Md, .bd-addon-card, .accountProfileCard-1XCH88, .menu-3sdvDG, .chat-3bRxxu, .container-1D34oG, .sidebar-2K8pFh, .searchBarComponent-32dTOx, .embedWrapper-lXpS3L, .grid-1nZz7S{
     border-radius: 2vw !important;
 }
 
@@ -57,6 +57,10 @@
 
 .searchBarComponent-32dTOx {
     padding-left: 1.0vw !important;
+}
+
+.grid-1nZz7S {
+    padding-left: 15px;
 }
 
 .chat-3bRxxu, .container-1D34oG {
@@ -85,7 +89,7 @@
     padding-top: 4px !important; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://github.com/LightslicerGP/SimplyDiscord/blob/main/Necessities/product-sans.zip');
 
 *:not([class*="hljs"]):not(code){
     font-family: Product Sans !important;
