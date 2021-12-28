@@ -5,7 +5,7 @@
  * @version 1.0.0
  * @description A Simplistic version of Discord that is similar to Zelk, Roundmoled, and Smooth Theme. It is a rounded simplistic UI that Includes a clean font: Product Sans.
  * @invite 3TGX6RA
- * @source 
+ * @source https://github.com/LightslicerGP/SimplyDiscord/
  * @website https://LightslicerGP.netlify.app/
 */
 
@@ -14,16 +14,16 @@
 
 
 :root {
-    --background-color: #000000;
-    --second-color: #181818;
-    --third-color: #292929;
+    --background-color: #000000 !important;
+    --second-color: #181818 !important;
+    --third-color: #292929 !important;
 }
 
 .bg-h5JY_x, .scroller-1Bvpku, .contentRegionScroller-26nc1e, .repoHeader-2KfNvH{
     background-color: var(--background-color) !important;
 }
 
-.privateChannels-1nO12o, .scroller-1JbKMe, .container-1giJp5, .container-3baos1, .scroller-2LSbBU, .form-2fGMdU, .channelTextArea-rNsIhG, .sidebarRegionScroller-3MXcoP, .expandedFolderBackground-3ZDF05, .container-1r6BKw, .peopleList-3c4jOR, .peopleColumn-29fq28, .header-2V-4Sw, .channelNotice-1-XFjC, .scroller-RmtA4e, .panels-j1Uci_{
+.privateChannels-1nO12o, .scroller-1JbKMe, .container-1giJp5, .container-3baos1, .scroller-2LSbBU, .form-2fGMdU, .channelTextArea-rNsIhG, .sidebarRegionScroller-3MXcoP, .expandedFolderBackground-3ZDF05, .container-1r6BKw, .peopleList-3c4jOR, .peopleColumn-29fq28, .header-2V-4Sw, .channelNotice-1-XFjC, .container-3w7J-x, .panels-j1Uci_{
     background-color: var(--second-color) !important;
 }
 
@@ -32,14 +32,14 @@
 }
 
 .form-2fGMdU:before, .children-19S4PO:after {
-    display: none;
+    display: none !important;
 }
 
 .layout-2DM8Md:hover, layout-2DM8Md, .bd-addon-card, .accountProfileCard-1XCH88, .menu-3sdvDG, .chat-3bRxxu, .container-1D34oG, .sidebar-2K8pFh, .searchBarComponent-32dTOx, .embedWrapper-lXpS3L, .grid-1nZz7S{
     border-radius: 2vw !important;
 }
 
-.floating-window, .attachedBars-tZDmyV, .item-26Dhrx, .webkit-HjD9Er, .anchor-3Z-8Bb{
+.floating-window, .attachedBars-tZDmyV, .item-26Dhrx, .webkit-HjD9Er, .anchor-3Z-8Bb, .layout-2DM8Md{
     border-radius: 1vw !important;
 }
 
@@ -55,12 +55,16 @@
     padding-right: 0.5vw !important;
 }
 
+.avatar-3uk_u9 {
+    margin-left: -3px !important;
+}
+
 .searchBarComponent-32dTOx {
     padding-left: 1.0vw !important;
 }
 
 .grid-1nZz7S {
-    padding-left: 15px;
+    padding-left: 15px !important;
 }
 
 .chat-3bRxxu, .container-1D34oG {
